@@ -1,0 +1,14 @@
+.educacao {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-primary);
+    background-color: var(--bg-primary);
+    grid-area: educacao;
+    padding: 50px 25px;
+   
+    @media (min-width: 768px) {
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+}

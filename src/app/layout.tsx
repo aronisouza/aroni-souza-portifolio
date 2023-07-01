@@ -1,11 +1,14 @@
 import './globals.scss'
-import { Inter } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Poppins({ 
+  subsets: ['latin'], 
+  weight:['400', '500','600'] 
+})
 
 export const metadata = {
   title: 'Aroni Souza',
-  description: 'Desenvolvedor Fullstack | Backend | PHP | C# .NET Core | HTML/CSS | JavaScript | ReactJS | Typescript',
+  description: 'Desenvolvedor Fullstack | Backend | PHP | C# .NETCore | HTML/CSS | JavaScript | ReactJS | Typescript',
 }
 
 export default function RootLayout({

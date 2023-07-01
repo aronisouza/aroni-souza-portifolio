@@ -1,17 +1,17 @@
-import Image from 'next/image'
+import { Header } from './components/header/header'
+import { Educacao } from './components/educacao/educacao'
+import { Experiencia } from './components/experiencia/experiencia'
+
+import './styles/home.scss'
+import { Botoes } from './components/botoes/botoes'
 
 export default function Home() {
   return (
-    <main>
-     <div>
-        <Image
-          src="/aroni.jpg"
-          alt="Next.js Logo"
-          width={200}
-          height={150}
-          priority
-        />
-      </div>
+    <main className="container">
+      <Header />
+      <Experiencia />
+      <Educacao />
+      <Botoes />
     </main>
   )
 }
