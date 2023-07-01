@@ -6,7 +6,7 @@ return(
     <div className="experiencia">
         <h2>🛠 Experiência</h2>
         <div>
-          <h3>Trabalhos realizado, site responsivo</h3> 
+          <h3>Trabalho realizado, site responsivo</h3> 
             <Image
             src="/trabalho-01.png"
             alt="Next.js Logo"
