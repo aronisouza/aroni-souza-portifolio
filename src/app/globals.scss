@@ -22,7 +22,6 @@ h1 {
 }
 
 h2 {
-
   font-size: 22px;
   line-height: 30px;
 }
@@ -33,7 +32,7 @@ h3 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -53,7 +52,7 @@ p {
   }
 
   p {
-      font-size: 14px;
-      line-height: 20px;
+    font-size: 0.8rem;
+    line-height: 20px;
   }
 }

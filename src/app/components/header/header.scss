@@ -5,10 +5,39 @@
     grid-area: header;
     background-color: var(--bg-primary);
     padding: 50px 25px;
-    
+    justify-content: center;
+
+    p {
+        text-align: center;
+    }
+
+    .headerinfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+        .divIcons {
+            display: flex;
+            align-items: center;
+
+            img {
+                margin-right: 20px;
+                cursor: pointer;
+            }
+
+            img:hover {
+                width: 40px;
+                height: 40px;
+                transition: 100ms step-end; 
+            }
+        }
+    }
+
     @media (min-width: 768px) {
         height: 100vh;
-        justify-content: center;
-        align-items: center;
+
+        p {
+            padding-top: 20px;
+        }
     }
 }
