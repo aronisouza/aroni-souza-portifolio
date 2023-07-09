@@ -20,22 +20,26 @@ export function Header() {
             />
           <Image
             src="/github.png"
-            alt="www"
+            alt="Github"
             width={30}
             height={30}
           />
           <Image
             src="/linkedin.png"
-            alt="www"
+            alt="linkedin"
             width={30}
             height={30}
           />
         </div>
+       
       
       </div>
         <p>
           TENHO 41 ANOS SOU DESENVOLVEDOR BACKEND E FRONTEND COM 2 ANOS DE EXPERIENCIA TRABALHANDO COMO FREELANCER
         </p>
+        
+        <button>Entrar em contato</button>
+        
     </div>
   )
 }

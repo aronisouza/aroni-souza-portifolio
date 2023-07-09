@@ -8,7 +8,15 @@
     justify-content: center;
 
     p {
-        text-align: center;
+        margin: 20px 0;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    button {
+        padding: 15px;
+        margin: 0 1rem;
+        cursor: pointer;
     }
 
     .headerinfo {
@@ -38,6 +46,12 @@
 
         p {
             padding-top: 20px;
+            text-align: center;
+        }
+
+        button {
+            padding: 15px;
+            margin: 0 3rem;
         }
     }
 }
